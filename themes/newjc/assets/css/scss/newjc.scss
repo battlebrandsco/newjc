@@ -1,0 +1,372 @@
+$red: #FF0000;
+$yellow: #DDA126;
+$bronze: #7E6131;
+$tan: #fcf9f8;
+
+* { font-family: 'Barlow'; }
+// body { background-color: #f6f5fb; }
+h1, h2, h3, blockquote { font-family: 'Marcellus SC'; }
+h1 { font-weight: 300; text-transform: uppercase; letter-spacing: .10em; }
+h2 { 
+    color: #292C37;
+    letter-spacing: .10em;
+    text-transform: uppercase; }
+
+h3, h4 {
+    color: #7E6131;
+    letter-spacing: .1em;
+    text-transform: uppercase; 
+    
+    &.has-background-color-yellow {
+        padding: .5em 1em;
+    }
+}
+
+a {
+    color: #DDA126;
+    text-decoration: none; 
+
+    transition-property: padding;
+    transition-duration: 500ms;
+}
+
+i { color: #DDA126; }
+
+hr {
+    background-color: #FF0000;
+
+    &.ornate {
+        background-color: transparent;
+        background-image: url(../../images/gold-ornate-border.png);
+        background-repeat: no-repeat;
+        height: 40px; }
+}
+
+.btn {
+    background-color: #FF0000; 
+    border-color: #fff;
+    color: #ffffff;
+    transition-property: background-color, padding-right;
+    transition-duration: 200ms;
+
+    &.btn-outlined {
+        border: 2px solid #DDA126; }
+
+    &:hover {
+        background-color: #DDA126;
+        color: #ffffff; 
+        padding-right: 2.5em;
+
+        i { color: inherit; }
+    }
+}
+
+.hero {
+    background-color: #ffffff; 
+
+    h2 {
+        color: #DDA126;
+        font-family: 'Barlow'; }
+}
+/* .hero .overlay { background-color: #FF0000; opacity: .6; } */
+
+header nav {
+
+    .current-menu-item {
+        a {
+            color: $red;
+            font-weight: bold; }
+    }
+
+    a {
+        text-transform: uppercase;
+        
+        &:hover {
+            background-color: $yellow;
+            color: #ffffff; }
+    }
+}
+
+header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #DDA126;
+    // border-top: 4px solid #DDA126;
+
+    &.is-fixed ~ * .hero {
+        padding-top: 100px; }
+    
+    .social-menu {
+    
+        a:hover {
+            background-color: transparent;
+            color: #FF0000; }
+    }
+}
+
+footer { color: #fff; background-color: #292C37; }
+footer a { color: #DDA126; }
+
+footer {
+
+    a:hover {
+        padding-left: 10px; }
+
+    h4 {
+        color: $bronze;
+        transition-property: color;
+        transition-duration: 500ms; }
+
+    hr {
+        background-color: $bronze; }
+
+    i {
+        margin-right: 10px;
+        width: 20px;
+        text-align: center; }
+
+    .col:hover {
+        h4 {
+            color: #ffffff; }
+    }
+}
+
+.red { color: #FF0000; }
+.yellow { color: #DDA126; border-color: #DDA126; }
+.dark { color: #292C37; }
+
+.is-yellow {
+    color: #DDA126; }
+
+.is-white {
+    color: #ffffff; }
+
+.is-red {
+    color: #FF0000; }
+
+.has-background-color-white {
+    background-color: #fff; }
+
+.has-background-color-yellow {
+    background-color: #DDA126;
+    color: #fff; }
+
+.has-background-color-red {
+    background-color: #FF0000;
+    color: #ffffff; }
+
+.has-background-color-purple {
+    background-color: #292C37;
+    color: #ffffff; 
+    
+    h2 {
+        color: #DDA126; }
+}
+
+.has-background-color-bronze {
+    background-color: $bronze;
+    color: #ffffff; }
+
+.has-border {
+    border-color: #eee; }
+
+.has-border-bottom {
+    border-bottom: 1px solid #DDA126; }
+
+i.fa-dollar-sign {
+    line-height: 48px;
+    width: 68px;
+    height: 64px;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 2.5em;
+    margin-bottom: .78em;
+}
+
+#menu-main.menu a {
+    padding: .5em;
+
+    transition-property: background-color;
+    transition-duration: 500ms;
+}
+
+#menu-social.menu a {
+    padding: .5em .25em;
+    transition-property: color;
+    transition-duration: 500ms;
+}
+
+// Home
+.home {
+
+    #welcome {
+
+
+        .hero {
+            color: #ffffff;
+            height: 100%; }
+    }
+
+    #drkaw-sticker {
+        bottom: 0;
+        z-index: 40; }
+}
+
+// Watch
+.watch {
+
+    #watch-live {
+        border-bottom: 1px solid #DDA126; }
+
+    #video-player { 
+        background-image: url(../../assets/images/stage-lights-on-yellow.jpg);
+        color: #fff; 
+
+        h1 {
+            color: #FF0000; }
+        
+        .time-display {
+            font-size: 4em; }
+        
+        span {
+            display: block; }
+    }
+}
+
+// Plan A Visit
+.visit {
+
+    #join-us {
+        .hero {
+            background-image: url(../../assets/images/women-singing-during-praise-worship.jpg);
+            color: #ffffff; }
+        
+            h2 {
+                color: #ffffff; }
+    }
+
+    #upcoming {
+
+        .hero {
+            // background-image: url('../../images/baby-dedication-dukes.jpg');
+        }
+    }
+
+    #map {
+        iframe {
+            height: 300px; }
+    }
+
+    .cosd {
+        margin-bottom: 1em;
+        transition-property: background-color;
+        transition-duration: 200ms;
+        
+        &:hover {
+            background-color: #fcf9f8; }
+    }
+}
+
+// Get Involved
+.get-involved {
+
+    #find {
+        color: #ffffff;
+
+        a {
+            color: inherit; }
+
+        .hero {
+            background-color: #DDA126;
+            background-image: url(../../assets/images/group-fist-bumping.jpg);
+            height: 100%;
+            padding: 4em 0;
+
+            .overlay { opacity: .4; }
+        }
+    }
+}
+
+// Giving
+.give {
+
+    #give {
+        .hero { 
+            background-color: #ffffff; 
+            background-image: url(../../assets/images/gymtorium-construction-progress.jpg);
+            color: #ffffff;
+            height: 100%;
+            
+            h1 { }
+
+            .overlay {
+                opacity: .3; }
+        }
+    }
+
+    .hero-giving {
+        max-height: 250px;
+
+        h2 {
+            color: #ffffff; 
+            font-family: 'Barlow'; }
+    }
+
+    .has-background-color-cashapp {
+        background-color: #0bb634;
+        color: #ffffff;
+    }
+
+    .has-bg-paypal {
+        background-color: #0070ba;
+        color: #ffffff;
+    }
+
+    #construction {
+        background-image: url(../../assets/images/steel-beams-in-sunset.jpg);
+        color: #ffffff;
+    
+        h2 {
+            color: #ffffff; }
+    }
+}
+
+.campus-expansion {
+
+    #campus-expansion {
+
+        .hero {
+            background-image: url(../../assets/images/gymtorium-inside-progress.jpg);
+            color: #ffffff;
+        }
+    }
+}
+
+.outreach {
+
+    #outreach {
+
+        .hero {
+            background-image: url(../../assets/images/community-loading-truck-with-water.jpg);
+            color: #ffffff;
+        }
+    }
+}
+
+.contact {
+
+    .col {
+        transition-property: background-color;
+        transition-duration: 500ms;
+
+        .img-wrap {
+            .overlay {
+                display: none;
+            }
+        }
+
+        &:hover .overlay {
+            opacity: .4;
+            display: block;
+        }
+    }
+}
