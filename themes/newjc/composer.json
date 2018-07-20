@@ -1,0 +1,11 @@
+{
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/themarcusbattle/chameleon.git"
+        }
+    ],
+    "require": {
+        "themarcusbattle/chameleon": "dev-master"
+    }
+}
