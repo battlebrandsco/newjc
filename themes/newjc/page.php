@@ -8,4 +8,10 @@
     </div>
 </section>
 
+<section>
+    <div class="container is-half">
+        <?php the_content(); ?>
+    </div>
+</section>
+
 <?php get_footer(); ?>
