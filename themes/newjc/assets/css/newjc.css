@@ -72,7 +72,7 @@ header nav a {
 
 header {
   background-color: #ffffff;
-  border-bottom: 1px solid #DDA126; }
+  border-bottom: 4px solid #7E6131; }
   header.is-fixed ~ * .hero {
     padding-top: 100px; }
   header .social-menu a:hover {
@@ -169,6 +169,9 @@ i.fa-dollar-sign {
   padding: .5em .25em;
   transition-property: color;
   transition-duration: 500ms; }
+
+.menu-overlay .overlay {
+  background-color: #292C37; }
 
 .home #welcome .hero {
   color: #ffffff;

@@ -1,7 +1,7 @@
 
         <footer>
             <div class="container">
-                <div class="grid left-align">
+                <div class="grid left-align is-vertical-on-mobile">
                     <div class="col">
                         <h4>Take The Next Steps</h4>
                         <ul class="menu">
@@ -22,7 +22,7 @@
                             ] ); 
                         ?>
                     </div>
-                    <hr class="is-vertical is-yellow" />
+                    <hr class="is-vertical-on-desktop is-yellow" />
                     <div class="col">
                         <h4>Contact</h4>
                         <p>1822 Sharpe Road<br />

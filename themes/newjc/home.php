@@ -10,7 +10,7 @@
             <a class="btn btn-outlined btn-lg" href="<?php echo home_url('visit'); ?>">Visit Us</a>
         </div>
         <div class="overlay"></div>
-        <video autoplay muted loop id="myVideo">
+        <video autoplay muted loop playsinline id="myVideo">
             <source src="<?php echo get_stylesheet_directory_uri() . '/assets/video/NJC PROMO - low.mp4' ?>" type="video/mp4">
         </video>
     </div>

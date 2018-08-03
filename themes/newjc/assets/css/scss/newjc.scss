@@ -2,6 +2,7 @@ $red: #FF0000;
 $yellow: #DDA126;
 $bronze: #7E6131;
 $tan: #fcf9f8;
+$blue: #292C37;
 
 * { font-family: 'Barlow'; }
 // body { background-color: #f6f5fb; }
@@ -89,7 +90,7 @@ header nav {
 
 header {
     background-color: #ffffff;
-    border-bottom: 1px solid #DDA126;
+    border-bottom: 4px solid $bronze;
     // border-top: 4px solid #DDA126;
 
     &.is-fixed ~ * .hero {
@@ -193,6 +194,12 @@ i.fa-dollar-sign {
     padding: .5em .25em;
     transition-property: color;
     transition-duration: 500ms;
+}
+
+.menu-overlay {
+    .overlay {
+        background-color: $blue;
+    }
 }
 
 // Home

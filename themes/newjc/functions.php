@@ -10,6 +10,8 @@ define( "CHAMELEON_DIR", get_stylesheet_directory_uri() . '/vendor/themarcusbatt
 function newjc_include_styles() {
     wp_enqueue_style( 'chameleon', CHAMELEON_DIR . 'css/chameleon.css' );
     wp_enqueue_style( 'newjc', get_stylesheet_directory_uri() . '/assets/css/newjc.css' );
+
+    wp_enqueue_script( 'chameleon', CHAMELEON_DIR . 'js/chameleon.js', array('jquery'), true );
 }
 
 add_action( 'wp_enqueue_scripts', 'newjc_include_styles' );
