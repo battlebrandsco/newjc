@@ -28,6 +28,15 @@
                         ] ); 
                     ?>
                 </nav>
+                <hr />
+                <h4>Contact</h4>
+                <p>1822 Sharpe Road<br />
+                    Greensboro, NC 27406<br />
+                    (336) 370-8583<br />
+                    info@newjc.org</p>
+                <ul class="menu">
+                    <li><a href="<?php echo home_url( 'contact' ); ?>">Pastor &amp; Staff</a></li>
+                </ul>
             </div>
             <div class="overlay"></div>
         </div>
@@ -62,7 +71,12 @@
                         </nav>
                     </div>
                     <div class="col has-text-align-right hide-on-desktop">
-                        <a class="reveal-menu"><i class="fas fa-bars"></i></a>
+                        <nav>
+                            <ul class="menu horizontal has-no-margin">
+                                <li><a class="phone-number">(336) 370-8583</a></li>
+                                <li><a class="reveal-menu"><i class="fas fa-bars"></i></a></li>
+                            </ul>
+                        </nav>
                     </div>
                 </div>
             </div>
