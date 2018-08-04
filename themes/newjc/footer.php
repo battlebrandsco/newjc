@@ -48,10 +48,10 @@
             </div>
         </footer>
         <footer id="copyright" class="has-background-color-bronze">
-            <div class="grid">
+            <div class="grid is-vertical-on-mobile">
                 <div class="col is-yellow">&copy; 2018 New Jerusalem Cathedral. All Rights Reserved.</div>
-                <div class="col has-text-align-center"><a href="https://www.bible.com/bible/116/rev.21.nlt" target="_blank">Revelation 21:2</a></div>
-                <div class="col has-text-align-right is-yellow">Branded by Battle Branding</div>
+                <div class="col has-text-align-center has-text-align-left-on-mobile has-margin-bottom-on-mobile"><a href="https://www.bible.com/bible/116/rev.21.nlt" target="_blank">Revelation 21:2</a></div>
+                <div class="col has-text-align-right has-text-align-left-on-mobile is-yellow">Branded by Battle Branding</div>
             </div>
         </footer>
         <?php wp_footer(); ?>
