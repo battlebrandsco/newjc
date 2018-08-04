@@ -43,7 +43,7 @@
         <h2 class="has-text-align-center">Outside of Greensboro?</h2>
         <h3 class="has-text-align-center">Visit a Church of Sound Doctrine</h3>
         <p class="has-text-align-center has-width-50 is-centered" style="margin-bottom: 3em;">New Jerusalem Cathedral is comprised of a network of churches known as the Churches of Sound Doctine. If you're unable to visit us in person, feel free to visit one of our network churches for a life changing word.</p>
-        <div class="grid">
+        <div class="grid is-vertical-on-mobile">
             <div id="high-point" class="col has-border has-padding cosd">
                 <h3>High Point, NC</h3>
                 <h4>Monument of Praise</h4>
@@ -57,7 +57,7 @@
                 <a class="btn btn-sm" href="https://thechurchofredemption.org">Visit <i class="fas fa-chevron-right"></i></a>
             </div>
         </div>
-        <div class="grid">
+        <div class="grid is-vertical-on-mobile">
             <div id="winston-salem" class="col has-border has-padding cosd">
                 <h3>Winston-Salem, NC</h3>
                 <h4>New Jerusalem Cathedral West</h4>
@@ -71,7 +71,7 @@
                 <a class="btn btn-sm" href="https://www.facebook.com/HopeChurchInternational/">Visit <i class="fas fa-chevron-right"></i></a>
             </div>
         </div>
-        <div class="grid">
+        <div class="grid is-vertical-on-mobile">
             <div id="houston" class="col has-border has-padding cosd">
                 <h3>Houston, TX</h3>
                 <h4>Love &amp; Liberty Fellowship</h4>
