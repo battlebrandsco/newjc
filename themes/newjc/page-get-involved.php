@@ -13,7 +13,7 @@
 </section>
 <section>
     <div class="container has-half">
-        <div class="grid has-padding vertical-align">
+        <div class="grid has-padding vertical-align is-vertical-on-mobile">
             <div class="col">
                 <h2>Children</h2>
                 <h3>Every Sunday Morning at 11:00 AM</h3>
@@ -31,7 +31,7 @@
 </section>
 <section>
     <div class="container has-half">
-        <div class="grid has-padding vertical-align">
+        <div class="grid has-padding vertical-align is-vertical-on-mobile">
             <div class="col">
                 <div class="img-wrap img-4-x-3">
                     <img src="<?php echo get_stylesheet_directory_uri() . "/assets/images/black-boy-smiling-in-front-of-wall.jpg"; ?>" />
@@ -48,7 +48,7 @@
 </section>
 <section class="has-padded-height">
     <div class="container has-half">
-        <div class="grid vertical-align">
+        <div class="grid vertical-align is-vertical-on-mobile">
             <div class="col">
                 <h2>College &amp; Young Adults</h2>
                 <h3>Every 2nd Monday Evening at 7:00 PM</h3>
@@ -65,7 +65,7 @@
 </section>
 <section class="has-padded-height">
         <div class="container has-half">
-            <div class="grid vertical-align">
+            <div class="grid vertical-align is-vertical-on-mobile">
                 <div class="col">
                     <div class="img-wrap img-4-x-3">
                         <img src="<?php echo get_stylesheet_directory_uri() . "/assets/images/small-group-with-bibles.jpg"; ?>" />
@@ -83,7 +83,7 @@
     </section>
 <section class="has-padded-height">
     <div class="container has-half">
-        <div class="grid">
+        <div class="grid is-vertical-on-mobile">
             <div class="col">
                 <h2>Worship &amp; Arts</h2>
                 <p> It is the vision of the worship & arts ministry to provide an atmosphere in which the presence of God is experienced by all through worship and praise unto our God in heaven, our Lord and Savior, Jesus Christ. We seek to provide a means for those with performing arts gifting, talent, and desire to grow and mature both in artistry and spiritually by way of discipline and stewardship according to the Word of God. Singers, musicians, dancers, poets, mime dancers, actors, and actresses are all welcome.</p> 
