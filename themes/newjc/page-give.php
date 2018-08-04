@@ -15,7 +15,7 @@
         <h2>With God, All Things Are Possible</h2>
         <p>Throughout 41 years of serving the community of faith, we have seen God heal the sick, raise the dead, and literally do the impossible. We are confident that the best is not behind us, but just ahead, and your giving has the power to move us there.</p>
     </div>
-    <div class="grid has-width-75 has-text-align-center has-padding-top">
+    <div class="grid has-width-75 has-text-align-center has-padding-top is-vertical-on-mobile">
         <div class="col">
             <i class="fas fa-dollar-sign is-xl is-white has-background-color-yellow"></i>
             <h3>Cash App</h3>
@@ -40,7 +40,7 @@
 </section>
 <section id="construction" class="has-padded-height">
     <div class="container has-half">
-        <div class="grid has-padding vertical-align">
+        <div class="grid has-padding vertical-align is-vertical-on-mobile">
             <div class="col">
                 <h2>Creating room for you</h2>
                 <p>Our church has been blessed weekly with a growing number of attendees who are constantly seeking  sound doctrine. The Word is truly life changing and is evident in the lives of many in the Triad area and beyond. We are committed to souls being saved and your contribution to our campus expansion can assist greatly by allowing us to accomodate more people. </p>
@@ -57,7 +57,7 @@
 </section>
 <section id="missions" class="has-padded-height">
     <div class="container has-half">
-        <div class="grid has-padding vertical-align">
+        <div class="grid has-padding vertical-align is-vertical-on-mobile">
             <div class="col">
                 <div class="img-wrap img-4-x-3">
                     <img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/kids-in-street-smiling-india.jpg' ?>" />

@@ -9,7 +9,7 @@
 </section>
 <section>
     <div class="container is-half has-text-align-center">
-        <div class="grid">
+        <div class="grid is-vertical-on-mobile">
             <div class="col">
                 <h3>Service Times</h3>
                 <p><strong>Sunday</strong> 7AM / 11AM / 6PM</p>
@@ -35,7 +35,7 @@
     <div class="container">
         <h2 class="has-text-align-center">Pastors &amp; Staff</h2>
     </div>
-    <div class="grid has-margin-bottom has-width-75 has-text-align-center">
+    <div class="grid has-margin-bottom has-width-75 has-text-align-center is-vertical-on-mobile">
         <div class="col">
             <div class="img-wrap img-4-x-3 has-margin-bottom">
                 <img src="<?php echo get_stylesheet_directory_uri() . "/assets/images/dr-kevin-williams.jpg"; ?>" />
@@ -57,14 +57,14 @@
     </div>
     <hr />
 
-    <div class="grid has-margin-bottom has-width-75 has-text-align-center">
+    <div class="grid has-margin-bottom has-width-75 has-text-align-center is-vertical-on-mobile">
         <div class="col">
             <div class="img-wrap img-4-x-4 has-margin-bottom">
                 <img src="<?php echo get_stylesheet_directory_uri() . "/assets/images/constance-spencer.jpg"; ?>" />
                 <div class="overlay has-background-color-yellow"></div>
             </div>
             <h3>Constance Spencer</h3>
-            <h4>Church Administrator</h4>
+            <h4>Church Secretary</h4>
             <a class="is-yellow"><i class="fas fa-envelope"></i> constance@newjc.org</a>
         </div>
         <div class="col">
@@ -86,7 +86,7 @@
             <a class="is-yellow"><i class="fas fa-envelope"></i> youth@newjc.org</a>
         </div>
     </div>
-    <div class="grid has-margin-bottom has-width-75 has-text-align-center">
+    <div class="grid has-margin-bottom has-width-75 has-text-align-center is-vertical-on-mobile">
         <div class="col">
             <div class="img-wrap img-4-x-4 has-margin-bottom">
                 <img src="<?php echo get_stylesheet_directory_uri() . "/assets/images/marcus-battle.jpg"; ?>" />
