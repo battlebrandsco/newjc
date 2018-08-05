@@ -48,8 +48,7 @@ hr {
     border: 2px solid #DDA126; }
   .btn:hover {
     background-color: #DDA126;
-    color: #ffffff;
-    padding-right: 2.5em; }
+    color: #ffffff; }
     .btn:hover i {
       color: inherit; }
 
@@ -205,6 +204,11 @@ i.fa-dollar-sign {
 
 .visit #map iframe {
   height: 300px; }
+
+@media (max-width: 500px) {
+  .visit #map .container {
+    margin: 0;
+    width: 100%; } }
 
 .visit .cosd {
   margin-bottom: 1em;

@@ -21,18 +21,6 @@
         <div class="overlay"></div>
     </div>
 </section>
-<section style="display: none;">
-    <div class="container is-full">
-        <div class="slider">
-            <div class="slides">
-                <div class="slide"></div>
-                <div class="slide"></div>
-            </div>
-            <a class="slider-button-left"><i class="fas fa-chevron-circle-left"></i></a>
-            <a class="slider-button-right"><i class="fas fa-chevron-circle-right"></i></i></a>
-        </div>
-    </div>
-</section>
 <section id="map">
     <div class="container has-width-75">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3226.0769038475046!2d-79.74198768502266!3d36.04282898011167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8853227f63b38669%3A0x84f651dc0d872353!2s1822+Sharpe+Rd%2C+Greensboro%2C+NC+27406!5e0!3m2!1sen!2sus!4v1531290909705" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -42,19 +30,19 @@
     <div class="container is-three-fourths">
         <h2 class="has-text-align-center">Outside of Greensboro?</h2>
         <h3 class="has-text-align-center">Visit a Church of Sound Doctrine</h3>
-        <p class="has-text-align-center has-width-50 is-centered" style="margin-bottom: 3em;">New Jerusalem Cathedral is comprised of a network of churches known as the Churches of Sound Doctine. If you're unable to visit us in person, feel free to visit one of our network churches for a life changing word.</p>
+        <p class="has-text-align-center has-width-50 is-centered is-full-on-mobile" style="margin-bottom: 3em;">New Jerusalem Cathedral is comprised of a network of churches known as the Churches of Sound Doctine. If you're unable to visit us in person, feel free to visit one of our network churches for a life changing word.</p>
         <div class="grid is-vertical-on-mobile">
             <div id="high-point" class="col has-border has-padding cosd">
                 <h3>High Point, NC</h3>
                 <h4>Monument of Praise</h4>
                 <p>321 Oakview Rd. Highpoint, NC 27265</br />Dr. Kevin Williams, Senior Pastor</p>
-                <a class="btn btn-sm" href="http://monumentofpraise.org">Visit <i class="fas fa-chevron-right"></i></a>
+                <a class="btn btn-sm" href="http://monumentofpraise.org">Visit <i class="fas fa-chevron-right show-on-hover"></i></a>
             </div>
             <div class="col has-border has-padding cosd">
                 <h3>High Point, NC</h3>
                 <h4>Church of Redemption</h4>
                 <p>1212 Pearson Place. High Point, NC 27265<br />Pastor Lisa Taylor, Senior Pastor</p>
-                <a class="btn btn-sm" href="https://thechurchofredemption.org">Visit <i class="fas fa-chevron-right"></i></a>
+                <a class="btn btn-sm" href="https://thechurchofredemption.org">Visit <i class="fas fa-chevron-right show-on-hover"></i></a>
             </div>
         </div>
         <div class="grid is-vertical-on-mobile">
@@ -62,13 +50,13 @@
                 <h3>Winston-Salem, NC</h3>
                 <h4>New Jerusalem Cathedral West</h4>
                 <p>3665 Patterson Ave. Winston-Salem, NC 27105<br />Dr. Erick Pryor, Senior Pastor</p>
-                <a class="btn btn-sm" href="https://www.facebook.com/newjcwest/">Visit <i class="fas fa-chevron-right"></i></a>
+                <a class="btn btn-sm" href="https://www.facebook.com/newjcwest/">Visit <i class="fas fa-chevron-right show-on-hover"></i></a>
             </div>
             <div id="durham" class="col has-border has-padding cosd">
                 <h3>Durham, NC</h3>
                 <h4>Hope Church International</h4>
                 <p>1203 Holloway St. Durham, NC 27701<br />Pastor Nathaniel Fuller, Senior Pastor</p>
-                <a class="btn btn-sm" href="https://www.facebook.com/HopeChurchInternational/">Visit <i class="fas fa-chevron-right"></i></a>
+                <a class="btn btn-sm" href="https://www.facebook.com/HopeChurchInternational/">Visit <i class="fas fa-chevron-right show-on-hover"></i></a>
             </div>
         </div>
         <div class="grid is-vertical-on-mobile">
@@ -76,13 +64,13 @@
                 <h3>Houston, TX</h3>
                 <h4>Love &amp; Liberty Fellowship</h4>
                 <p>6717 Stuebner Airline Rd, Houston, TX 77091<br />Pastor Kim Burrell, Senior Pastor</p>
-                <a class="btn btn-sm" href="http://www.kimburrellministries.com/llfc">Visit <i class="fas fa-chevron-right"></i></a>
+                <a class="btn btn-sm" href="http://www.kimburrellministries.com/llfc">Visit <i class="fas fa-chevron-right show-on-hover"></i></a>
             </div>
             <div id="east-london" class="col has-border has-padding cosd">
                 <h3>East London, South Africa</h3>
                 <h4>Amazing Grace International Church</h4>
                 <p>Scenery Park East London Eastern Cape 5247 South Africa<br />Pastor Jay, Senior Pastor</p>
-                <a class="btn btn-sm" href="https://www.facebook.com/pg/Amazing-Grace-Ministries-International-466569626851944">Visit <i class="fas fa-chevron-right"></i></a>
+                <a class="btn btn-sm" href="https://www.facebook.com/pg/Amazing-Grace-Ministries-International-466569626851944">Visit <i class="fas fa-chevron-right show-on-hover"></i></a>
             </div>
         </div>
     </div>

@@ -55,8 +55,7 @@ hr {
 
     &:hover {
         background-color: #DDA126;
-        color: #ffffff; 
-        padding-right: 2.5em;
+        color: #ffffff;
 
         i { color: inherit; }
     }
@@ -262,7 +261,15 @@ i.fa-dollar-sign {
 
     #map {
         iframe {
-            height: 300px; }
+            height: 300px;
+        }
+
+        @media ( max-width: 500px ) {
+            .container {
+                margin: 0;
+                width: 100%;
+            }
+        }
     }
 
     .cosd {
