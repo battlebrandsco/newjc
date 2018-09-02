@@ -6,7 +6,7 @@
             <h1>Your Gifts Are Welcome Here</h1>
             <p>The Bible teaches us that every good and perfect gift comes from above. What better way to honor God than by giving your gifts back to Him for Kingdom work? We want you to know that there is room for your gifts at New Jerusalem Cathedral! As a member, join us for monthly ministry meetings on the last Monday of every month to begin sharing your gift. Not sure where to serve? No problem, take the spiritual gift assessment <a href="#">here</a>.</p>
             <a class="btn">Discover Ministries <i class="fas fa-chevron-right"></i></a>
-            <a class="btn btn-outlined">Discover Your Gift <i class="fas fa-chevron-right"></i></a>
+            <a class="btn btn-outlined" href="<?php echo home_url( 'spiritual-gifts' ); ?>">Discover Your Gift <i class="fas fa-chevron-right"></i></a>
         </div>
         <div class="overlay"></div>
     </div>

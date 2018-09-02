@@ -10,7 +10,7 @@
 
 <section>
     <div class="container is-half">
-        <?php the_content(); ?>
+        <?php echo the_content(); ?>
     </div>
 </section>
 

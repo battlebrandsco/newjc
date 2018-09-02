@@ -4,6 +4,7 @@ $bronze: #7E6131;
 $tan: #fcf9f8;
 $blue: #292C37;
 
+
 * { font-family: 'Barlow'; }
 // body { background-color: #f6f5fb; }
 h1, h2, h3, blockquote { font-family: 'Marcellus SC'; }
@@ -44,7 +45,7 @@ hr {
 }
 
 .btn {
-    background-color: #FF0000; 
+    background-color: $red; 
     border-color: #fff;
     color: #ffffff;
     transition-property: background-color, padding-right;
