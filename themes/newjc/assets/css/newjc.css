@@ -182,18 +182,52 @@ i.fa-dollar-sign {
   bottom: 0;
   z-index: 40; }
 
-.watch #watch-live {
+.watch #watch-live,
+.post-type-archive-sermon #watch-live {
   border-bottom: 1px solid #DDA126; }
 
-.watch #video-player {
+.watch #video-player,
+.post-type-archive-sermon #video-player {
   background-image: url(../../assets/images/stage-lights-on-yellow.jpg);
   color: #fff; }
-  .watch #video-player h1 {
+  .watch #video-player h1,
+  .post-type-archive-sermon #video-player h1 {
     color: #FF0000; }
-  .watch #video-player .time-display {
+  .watch #video-player .time-display,
+  .post-type-archive-sermon #video-player .time-display {
     font-size: 4em; }
-  .watch #video-player span {
+  .watch #video-player span,
+  .post-type-archive-sermon #video-player span {
     display: block; }
+
+.watch .video-play,
+.post-type-archive-sermon .video-play {
+  display: block;
+  height: 100%; }
+
+.watch .video-title,
+.post-type-archive-sermon .video-title {
+  background-color: #FF0000;
+  bottom: 1em;
+  display: inline-block;
+  max-width: 70%;
+  padding: 1em;
+  position: absolute;
+  width: 80%; }
+  .watch .video-title h3,
+  .post-type-archive-sermon .video-title h3 {
+    color: #ffffff;
+    margin-bottom: .25em; }
+  .watch .video-title span,
+  .post-type-archive-sermon .video-title span {
+    color: #ffffff; }
+
+.watch .fa-play-circle,
+.post-type-archive-sermon .fa-play-circle {
+  position: absolute;
+  right: 1em;
+  top: 20px;
+  font-size: 2em; }
 
 .visit #join-us .hero {
   background-image: url(../../assets/images/women-singing-during-praise-worship.jpg);

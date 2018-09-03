@@ -221,7 +221,8 @@ i.fa-dollar-sign {
 }
 
 // Watch
-.watch {
+.watch,
+.post-type-archive-sermon {
 
     #watch-live {
         border-bottom: 1px solid #DDA126; }
@@ -239,6 +240,33 @@ i.fa-dollar-sign {
         span {
             display: block; }
     }
+
+    .video-play {
+        display: block;
+        height: 100%; }
+
+    .video-title {
+        background-color: $red;
+        bottom: 1em;
+        display: inline-block;
+        max-width: 70%;
+        padding: 1em;
+        position: absolute;
+        width: 80%;
+
+        h3 {
+            color: #ffffff;
+            margin-bottom: .25em; }
+        
+        span {
+            color: #ffffff; }
+    }
+
+    .fa-play-circle {
+        position: absolute;
+        right: 1em;
+        top: 20px;
+        font-size: 2em; }
 }
 
 // Plan A Visit

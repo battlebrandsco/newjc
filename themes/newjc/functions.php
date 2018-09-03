@@ -44,3 +44,12 @@ function newjc_add_body_classes( $classes ) {
 }
 
 add_filter( 'body_class', 'newjc_add_body_classes' );
+
+// Support thumbnails
+add_theme_support( 'post-thumbnails' ); 
+
+include 'classes/cpts/watch.php';
+
+use \NewJC\Classes\CPTs as CPTs;
+
+$videos = new CPTs\Watch();

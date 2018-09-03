@@ -1,3 +1,6 @@
 vendor
 node_modules
 .DS_Store
+uploads
+package-lock.json
+themes/newjc/package-lock.json
