@@ -10,7 +10,9 @@
 
 <section>
     <div class="container is-half">
-        <?php echo the_content(); ?>
+        <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+            <?php echo the_content(); ?>
+        <?php endwhile; endif; ?>
     </div>
 </section>
 
