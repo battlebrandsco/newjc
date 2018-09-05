@@ -48,8 +48,9 @@ add_filter( 'body_class', 'newjc_add_body_classes' );
 // Support thumbnails
 add_theme_support( 'post-thumbnails' ); 
 
-include 'classes/cpts/watch.php';
 
 use \NewJC\Classes\CPTs as CPTs;
+use \NewJC\Classes\Metaboxes as Metaboxes;
 
-$videos = new CPTs\Watch();
+$cpts['sermons']      = new CPTs\Sermons();
+$metaboxes['sermons'] = new Metaboxes\Sermons();

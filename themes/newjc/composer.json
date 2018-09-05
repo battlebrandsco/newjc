@@ -1,11 +1,26 @@
 {
     "repositories": [
         {
-            "type": "git",
-            "url": "https://github.com/themarcusbattle/chameleon.git"
+            "type" : "git",
+            "url" : "https://github.com/themarcusbattle/chameleon.git"
+        },
+        {
+            "type" : "git",
+            "url" : "https://github.com/themarcusbattle/weaverbird.git"
         }
     ],
     "require": {
-        "themarcusbattle/chameleon": "dev-master"
+        "themarcusbattle/chameleon": "dev-master",
+        "themarcusbattle/weaverbird": "dev-master"
+    },
+    "autoload": {
+        "classmap": [
+            "classes/"
+        ],
+        "files": [
+            "vendor/themarcusbattle/weaverbird/helpers/cpts.php",
+            "vendor/themarcusbattle/weaverbird/helpers/metaboxes.php",
+            "vendor/themarcusbattle/weaverbird/helpers/taxonomies.php"
+        ]
     }
 }

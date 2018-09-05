@@ -3,7 +3,7 @@
 <section>
     <div class="hero">
         <div class="hero-panel">
-            <h1>Watch</h1>
+            <h1>Sermons</h1>
         </div>
     </div>
 </section>

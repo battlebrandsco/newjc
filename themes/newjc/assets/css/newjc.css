@@ -203,17 +203,28 @@ i.fa-dollar-sign {
 .watch .video-play,
 .post-type-archive-sermon .video-play {
   display: block;
-  height: 100%; }
+  height: 100%;
+  position: relative; }
+  .watch .video-play:after,
+  .post-type-archive-sermon .video-play:after {
+    content: ' ';
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, black 100%);
+    bottom: 0;
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 30%; }
 
 .watch .video-title,
 .post-type-archive-sermon .video-title {
-  background-color: #FF0000;
   bottom: 1em;
   display: inline-block;
+  left: 10px;
   max-width: 70%;
   padding: 1em;
   position: absolute;
-  width: 80%; }
+  width: 80%;
+  z-index: 10; }
   .watch .video-title h3,
   .post-type-archive-sermon .video-title h3 {
     color: #ffffff;
@@ -228,6 +239,11 @@ i.fa-dollar-sign {
   right: 1em;
   top: 20px;
   font-size: 2em; }
+
+.single-sermon #video-container {
+  background-color: #292C37; }
+  .single-sermon #video-container .hero {
+    background-color: inherit; }
 
 .visit #join-us .hero {
   background-image: url(../../assets/images/women-singing-during-praise-worship.jpg);

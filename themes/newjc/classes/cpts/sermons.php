@@ -2,29 +2,23 @@
 
 namespace NewJC\Classes\CPTs;
 
-class Watch {
+class Sermons extends \Weaverbird\Helpers\CPTs {
 
     public function __construct() {
-        self::init();
-    }
 
-    public function init() {
-        add_action( 'init', [ $this, 'register' ], 10 );
-    }
+        $this->name = 'sermon';
 
-    public function register() {
-
-        $args = [
+        $this->settings = [
             'public'      => true,
             'label'       => 'Sermons',
             'has_archive' => true,
             'menu_icon'   => 'dashicons-editor-video',
             'rewrite'     => [
-                'slug' => 'watch',
+                'slug' => 'sermons',
             ],
             'supports'    => [ 'editor', 'title', 'thumbnail' ],
         ];
 
-        register_post_type( 'sermon', $args );
+        parent::init();
     }
 }

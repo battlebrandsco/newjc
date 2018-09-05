@@ -243,16 +243,30 @@ i.fa-dollar-sign {
 
     .video-play {
         display: block;
-        height: 100%; }
+        height: 100%;
+        position: relative; 
+    
+        &:after {
+            content: ' ';
+            background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%);
+            bottom: 0;
+            display: block;
+            position: absolute;
+            width: 100%;
+            height: 30%;
+        }
+    }
 
     .video-title {
-        background-color: $red;
+        // background-color: $red;
         bottom: 1em;
         display: inline-block;
+        left: 10px;
         max-width: 70%;
         padding: 1em;
         position: absolute;
         width: 80%;
+        z-index: 10;
 
         h3 {
             color: #ffffff;
@@ -267,6 +281,16 @@ i.fa-dollar-sign {
         right: 1em;
         top: 20px;
         font-size: 2em; }
+}
+
+.single-sermon {
+
+    #video-container {
+        background-color: $blue;
+
+        .hero {
+            background-color: inherit; }
+    }
 }
 
 // Plan A Visit

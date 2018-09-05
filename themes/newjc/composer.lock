@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "2556c37f6899cd6e1a245c5afe5333a3",
+    "content-hash": "894f9f7b8a7282896ebbe7a427b3a7a7",
     "packages": [
         {
             "name": "themarcusbattle/chameleon",
@@ -17,13 +17,26 @@
             "type": "library",
             "description": "Custom CSS Framework by Marcus Battle",
             "time": "2018-09-02 21:18:50"
+        },
+        {
+            "name": "themarcusbattle/weaverbird",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/themarcusbattle/weaverbird.git",
+                "reference": "c0d557994b8d389e00581d31e670755f103e3294"
+            },
+            "type": "library",
+            "description": "A simple, yet intricate framework to develop beautiful WordPress plugins",
+            "time": "2018-09-04 02:42:54"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "themarcusbattle/chameleon": 20
+        "themarcusbattle/chameleon": 20,
+        "themarcusbattle/weaverbird": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
