@@ -11,7 +11,6 @@ $speaker   = get_post_meta( get_the_ID(), 'speaker', true );
         <div class="video-title">
             <h3><?php the_title(); ?></h3>
             <span><?php echo esc_attr( $scripture ); ?><?php echo esc_attr( $speaker ); ?></span>
-            <!-- <i class="fas fa-play-circle"></i> -->
         </div>
     </a>
 </div>
