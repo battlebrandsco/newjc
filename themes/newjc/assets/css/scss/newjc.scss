@@ -288,6 +288,9 @@ i.fa-dollar-sign {
     #video-container {
         background-color: $blue;
 
+        iframe {
+            margin-bottom: 1em; }
+
         .hero {
             background-color: inherit; }
     }

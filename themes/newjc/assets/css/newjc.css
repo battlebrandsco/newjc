@@ -242,6 +242,8 @@ i.fa-dollar-sign {
 
 .single-sermon #video-container {
   background-color: #292C37; }
+  .single-sermon #video-container iframe {
+    margin-bottom: 1em; }
   .single-sermon #video-container .hero {
     background-color: inherit; }
 
