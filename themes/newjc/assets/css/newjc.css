@@ -54,6 +54,8 @@ hr {
 
 .hero {
   background-color: #ffffff; }
+  .hero h1 {
+    font-size: 4em; }
   .hero h2 {
     color: #DDA126;
     font-family: 'Barlow'; }
