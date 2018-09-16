@@ -24,11 +24,11 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/themarcusbattle/weaverbird.git",
-                "reference": "d45dee712fc9a01441f75f102e54ac483aa6e643"
+                "reference": "508b9637cfa4360e121655891596dab29c2afc0c"
             },
             "type": "library",
             "description": "A simple, yet intricate framework to develop beautiful WordPress plugins",
-            "time": "2018-09-05T18:32:01+00:00"
+            "time": "2018-09-16T22:38:24+00:00"
         }
     ],
     "packages-dev": [],
