@@ -102,6 +102,7 @@ header {
         }
     }
 
+    &.is-absolute ~ * .hero,
     &.is-fixed ~ * .hero {
         padding-top: 100px; }
     
@@ -227,6 +228,10 @@ i.fa-dollar-sign {
         .hero {
             color: #ffffff;
             height: 100%; }
+
+        .overlay {
+            background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%);
+        }
     }
 
     #drkaw-sticker {

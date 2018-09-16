@@ -76,6 +76,7 @@ header a {
   header a:hover {
     color: #DDA126; }
 
+header.is-absolute ~ * .hero,
 header.is-fixed ~ * .hero {
   padding-top: 100px; }
 
@@ -188,6 +189,9 @@ i.fa-dollar-sign {
 .home #welcome .hero {
   color: #ffffff;
   height: 100%; }
+
+.home #welcome .overlay {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, black 100%); }
 
 .home #drkaw-sticker {
   bottom: 0;
