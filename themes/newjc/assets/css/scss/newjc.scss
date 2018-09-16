@@ -116,6 +116,16 @@ header {
             background-color: transparent;
             color: #FF0000; }
     }
+
+    .overlay {
+        display: none;
+        opacity: .1;
+        background-color: $yellow;
+    }
+}
+
+.no-background header a {
+    color: $yellow;
 }
 
 footer { color: #fff; background-color: #292C37; }

@@ -87,6 +87,14 @@ header .social-menu a:hover {
   background-color: transparent;
   color: #FF0000; }
 
+header .overlay {
+  display: none;
+  opacity: .1;
+  background-color: #DDA126; }
+
+.no-background header a {
+  color: #DDA126; }
+
 footer {
   color: #fff;
   background-color: #292C37; }
