@@ -48,7 +48,7 @@
                             <img alt="New Jerusalem Cathedral Logo" src="<?php echo get_stylesheet_directory_uri() . '/assets/images/NJC Logo.svg' ?>" height="60px" />
                         </a>
                     </div>
-                    <div class="col col-half has-text-align-center hide-on-mobile">
+                    <div class="col has-width-75 has-text-align-center hide-on-mobile">
                         <nav>
                             <?php
                                 wp_nav_menu( [ 

@@ -66,8 +66,7 @@ header nav .current-menu-item a {
 header nav a {
   text-transform: uppercase; }
   header nav a:hover {
-    background-color: #DDA126;
-    color: #ffffff; }
+    color: #7E6131; }
 
 header {
   background-color: #ffffff;
