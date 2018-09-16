@@ -40,7 +40,7 @@ function newjc_add_body_classes( $classes ) {
         $classes[] = $post->post_name;
     }
 
-    if ( ! has_post_thumbnail( $post ) && is_page() ) {
+    if ( ! has_post_thumbnail( $post ) ) {
         $classes[] = 'no-background';
     }
 
