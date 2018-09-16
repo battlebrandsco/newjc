@@ -40,7 +40,7 @@
             </div>
             <div class="overlay"></div>
         </div>
-        <header class="is-fixed three-columns">
+        <header class="is-absolute three-columns">
             <div class="container">
                 <div class="grid vertical-align">
                     <div class="col">
@@ -80,4 +80,5 @@
                     </div>
                 </div>
             </div>
+            <!-- <div class="overlay"></div> -->
         </header>

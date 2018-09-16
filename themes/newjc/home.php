@@ -3,11 +3,10 @@
 <section id="welcome" class="has-no-padding">
     <div class="hero hero-lg">
         <div class="hero-panel">
-            <h1>Welcome to NEW!</h1>
-            <!-- <p>Life. Hope. Peace. Joy.</p> -->
-            <p>"Fear will enslave you to complacency and to compromise."<br />-Dr. Kevin Williams <a href="https://twitter.com/DrKAWilliams"><i class="fab fa-twitter"></i></a></p>
-            <a class="btn btn-lg" href="<?php echo home_url('watch'); ?>">Sunday Replay <i class="fas fa-play"></i></a>
-            <a class="btn btn-outlined btn-lg" href="<?php echo home_url('visit'); ?>">Visit Us <i class="fas fa-chevron-right show-on-hover"></i></a>
+            <h3>Latest Sermon</h3>
+            <h1>Everything Is Within Reach</h1>
+            <a class="btn btn-small" href="<?php echo home_url('sermons'); ?>">Sunday Replay <i class="fas fa-play"></i></a>
+            <a class="btn btn-outlined" href="<?php echo home_url('visit'); ?>">Visit Us <i class="fas fa-chevron-right show-on-hover"></i></a>
         </div>
         <div class="overlay"></div>
         <video autoplay muted loop playsinline id="myVideo">
@@ -26,9 +25,10 @@
             </div>
         </div>
     </div>
+    <img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/dr-kevin-williams.png' ?>" height="400" class="sticker" style="bottom: 0; left: 0;" />
 </section>
 
-<section style="background-image: url('<?php echo get_stylesheet_directory_uri() . '/assets/images/boat-in-storm-on-water.jpg' ?>');">
+<section style="display: none; background-image: url('<?php echo get_stylesheet_directory_uri() . '/assets/images/boat-in-storm-on-water.jpg' ?>');">
     <div class="container is-three-fourths">
         <div class="grid vertical-align">
             <div class="col col-half center-align is-padded">
@@ -41,7 +41,6 @@
             </div>
         </div>
     </div>
-    <img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/dr-kevin-williams.png' ?>" height="400" class="sticker" style="bottom: 0; left: 0;" />
 </section>
 
 <?php get_footer(); ?>

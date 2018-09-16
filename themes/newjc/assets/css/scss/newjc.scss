@@ -69,7 +69,9 @@ hr {
         color: #DDA126;
         font-family: 'Barlow'; }
 }
-/* .hero .overlay { background-color: #FF0000; opacity: .6; } */
+.hero .overlay { 
+    background-color: #000000; 
+    /* opacity: .9; */ } 
 
 header nav {
 
@@ -88,9 +90,17 @@ header nav {
 }
 
 header {
-    background-color: #ffffff;
-    border-bottom: 4px solid $bronze;
+    // background-color: $bronze;
+    // border-bottom: 4px solid $bronze;
     // border-top: 4px solid #DDA126;
+
+    a {
+        color: #ffffff;
+    
+        &:hover {
+            color: $yellow;
+        }
+    }
 
     &.is-fixed ~ * .hero {
         padding-top: 100px; }
@@ -207,7 +217,8 @@ i.fa-dollar-sign {
 .home {
 
     #welcome {
-
+        h1 {
+            font-size: 2em; }
 
         .hero {
             color: #ffffff;
