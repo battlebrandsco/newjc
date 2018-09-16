@@ -69,7 +69,7 @@ header nav .current-menu-item a {
 header nav a {
   text-transform: uppercase; }
   header nav a:hover {
-    color: #7E6131; }
+    color: #DDA126; }
 
 header a {
   color: #ffffff; }
@@ -78,6 +78,9 @@ header a {
 
 header.is-fixed ~ * .hero {
   padding-top: 100px; }
+
+header .social-menu a {
+  margin: 0 .25em; }
 
 header .social-menu a:hover {
   background-color: transparent;

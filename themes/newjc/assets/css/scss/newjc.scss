@@ -85,7 +85,7 @@ header nav {
         text-transform: uppercase;
         
         &:hover {
-            color: $bronze; }
+            color: $yellow; }
     }
 }
 
@@ -106,7 +106,11 @@ header {
         padding-top: 100px; }
     
     .social-menu {
-    
+        
+        a {
+            margin: 0 .25em;
+        }
+
         a:hover {
             background-color: transparent;
             color: #FF0000; }
