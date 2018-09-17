@@ -54,15 +54,12 @@ hr {
 
 .hero {
   background-color: #ffffff; }
-  .hero h1 {
-    font-size: 4em; }
   .hero h2 {
     color: #DDA126;
     font-family: 'Barlow'; }
-
-.hero .overlay {
-  background-color: #000000;
-  /* opacity: .9; */ }
+  .hero .overlay {
+    background-color: #000000;
+    /* opacity: .9; */ }
 
 section#main {
   background-color: #f6f6f6; }

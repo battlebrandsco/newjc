@@ -65,16 +65,16 @@ hr {
 .hero {
     background-color: #ffffff; 
 
-    h1 {
-        font-size: 4em; }
-
     h2 {
         color: #DDA126;
         font-family: 'Barlow'; }
+    
+    .overlay {
+        background-color: #000000;
+        // background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%);
+        /* opacity: .9; */ }     
 }
-.hero .overlay { 
-    background-color: #000000; 
-    /* opacity: .9; */ } 
+
 
 section#main {
     background-color: #f6f6f6; }
@@ -402,8 +402,6 @@ i.fa-dollar-sign {
             background-image: url(../../assets/images/gymtorium-construction-progress.jpg);
             color: #ffffff;
             height: 100%;
-            
-            h1 { }
 
             .overlay {
                 opacity: .3; }
