@@ -343,7 +343,8 @@ i.fa-dollar-sign {
 
 .outreach #outreach .hero {
   background-image: url(../../assets/images/community-loading-truck-with-water.jpg);
-  color: #ffffff; }
+  color: #ffffff;
+  height: 100%; }
 
 .contact .col {
   transition-property: background-color;
