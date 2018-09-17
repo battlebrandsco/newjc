@@ -4,6 +4,7 @@
     <div class="hero">
         <div class="hero-panel">
             <h1>Sermons</h1>
+            <a class="btn" href="<?php echo home_url('watch'); ?>">Watch Live</a>
         </div>
     </div>
 </section>
