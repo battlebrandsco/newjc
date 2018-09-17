@@ -8,7 +8,7 @@
     </div>
 </section>
 
-<section>
+<section id="main">
     <div class="container">
         <div class="grid grid-gallery">
             <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
