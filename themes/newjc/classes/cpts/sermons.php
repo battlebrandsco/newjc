@@ -6,7 +6,8 @@ class Sermons extends \Weaverbird\Helpers\CPTs {
 
     public function __construct() {
 
-        $this->name = 'sermon';
+        $this->name        = 'sermon';
+        $this->slug_is_int = true;
 
         $this->settings = [
             'public'      => true,
