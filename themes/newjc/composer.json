@@ -18,7 +18,7 @@
             "classes/"
         ],
         "files": [
-            "vendor/themarcusbattle/weaverbird/helpers/cpts.php",
+            "vendor/themarcusbattle/weaverbird/helpers/cpt.php",
             "vendor/themarcusbattle/weaverbird/helpers/metaboxes.php",
             "vendor/themarcusbattle/weaverbird/helpers/taxonomies.php"
         ]
