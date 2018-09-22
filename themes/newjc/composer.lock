@@ -12,11 +12,11 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/themarcusbattle/chameleon.git",
-                "reference": "3af4ed90c30f673d027f8a19c72ffee06136fae6"
+                "reference": "b1b2cd912195a250724f061972408916edfc489e"
             },
             "type": "library",
             "description": "Custom CSS Framework by Marcus Battle",
-            "time": "2018-09-17T21:54:15+00:00"
+            "time": "2018-09-22T22:42:20+00:00"
         },
         {
             "name": "themarcusbattle/weaverbird",
@@ -24,11 +24,11 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/themarcusbattle/weaverbird.git",
-                "reference": "508b9637cfa4360e121655891596dab29c2afc0c"
+                "reference": "7be4b9802103ef44a5a7526334bb494fba6a4fd7"
             },
             "type": "library",
             "description": "A simple, yet intricate framework to develop beautiful WordPress plugins",
-            "time": "2018-09-16T22:38:24+00:00"
+            "time": "2018-09-22T23:07:18+00:00"
         }
     ],
     "packages-dev": [],
