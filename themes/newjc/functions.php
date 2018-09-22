@@ -56,5 +56,9 @@ add_theme_support( 'post-thumbnails' );
 use \NewJC\Classes\CPTs as CPTs;
 use \NewJC\Classes\Metaboxes as Metaboxes;
 
-$cpts['sermons']      = new CPTs\Sermons();
-$metaboxes['sermons'] = new Metaboxes\Sermons();
+global $newjc_objects;
+
+$newjc_objects['cpts']['sermon']         = new CPTs\Sermon();
+$newjc_objects['cpts']['location']       = new CPTs\Locations();
+$newjc_objects['metaboxes']['sermons']   = new Metaboxes\Sermons();
+$newjc_objects['metaboxes']['locations'] = new Metaboxes\Locations();
