@@ -25,7 +25,7 @@
         <div class="col">
             <h2>Every Soul Matters</h2>
             <p> With every soul being of the upmost importance, C.O.R.E provides hands on training for evangelism. We believe that it is necessary for every believer to become equipped with tools to share the Gospel of Jesus Christ all while serving our brothers and sisters in excellence. If you have a passion for sharing the gospel in non-traditional ways then we believe that C.O.R.E is a great place for you and would love for you to be apart of our ever growing outreach team.</p>
-            <a class="btn" href="<?php echo home_url('forms/join-core'); ?>">Join C.O.R.E.</a>
+            <a class="btn" href="<?php echo home_url('forms/volunteer'); ?>">Join C.O.R.E.</a>
         </div>
     </div>
 </section>

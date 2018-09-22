@@ -17,7 +17,7 @@
     </div>
     <div class="grid has-width-75 has-text-align-center has-padding-top is-vertical-on-mobile">
         <div class="col">
-            <i class="fas fa-dollar-sign is-xl is-white has-background-color-yellow"></i>
+            <a href="https://cash.me/$newjc"><i class="fas fa-dollar-sign is-xl is-white has-background-color-yellow"></i></a>
             <h3>Cash App</h3>
             <p>Giving available on the <a href="https://cash.me/$newjc">CashApp</a></p>
         </div>
@@ -27,12 +27,12 @@
             <p>Secure credit or debit via <a href="#">PayPal</a></p>
         </div>
         <div class="col">
-            <i class="fas fa-hand-holding-usd is-xl is-yellow"></i>
+            <a href="<?php echo home_url('visit'); ?>"><i class="fas fa-hand-holding-usd is-xl is-yellow"></i></a>
             <h3>In Person</h3>
             <p>Available at any <a href="<?php echo home_url('visit'); ?>">worship service</a></p>
         </div>
         <div class="col">
-            <i class="fas fa-gift is-xl is-yellow"></i>
+            <a href="<?php echo home_url('contact'); ?>"><i class="fas fa-gift is-xl is-yellow"></i></a>
             <h3>In-kind Gifts</h3>
             <p>During normal <a href="<?php echo home_url('contact'); ?>">business hours</a></p>
         </div>
@@ -44,7 +44,7 @@
             <div class="col">
                 <h2>Creating room for you</h2>
                 <p>Our church has been blessed weekly with a growing number of attendees who are constantly seeking  sound doctrine. The Word is truly life changing and is evident in the lives of many in the Triad area and beyond. We are committed to souls being saved and your contribution to our campus expansion can assist greatly by allowing us to accomodate more people. </p>
-                <a class="btn btn-outlined red" href="campus-expansion.html">Learn More <i class="fas fa-chevron-right"></i></a>
+                <!-- <a class="btn btn-outlined red" href="<?php echo home_url( 'give/campus-expansion' ); ?>">Learn More <i class="fas fa-chevron-right"></i></a> -->
             </div>
             <div class="col">
                 <div class="img-wrap img-4-x-3">
