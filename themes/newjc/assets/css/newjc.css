@@ -41,6 +41,7 @@ hr {
 .btn {
   background-color: #FF0000;
   border-color: #fff;
+  border-radius: 3px;
   color: #ffffff;
   transition-property: background-color, padding-right;
   transition-duration: 200ms; }
@@ -290,7 +291,9 @@ i.fa-dollar-sign {
 .visit .cosd {
   margin-bottom: 1em;
   transition-property: background-color;
-  transition-duration: 200ms; }
+  transition-duration: 200ms;
+  height: inherit;
+  background-color: #ffffff; }
   .visit .cosd:hover {
     background-color: #fcf9f8; }
 

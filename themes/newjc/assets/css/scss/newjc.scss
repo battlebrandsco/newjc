@@ -47,6 +47,7 @@ hr {
 .btn {
     background-color: $red; 
     border-color: #fff;
+    border-radius: 3px;
     color: #ffffff;
     transition-property: background-color, padding-right;
     transition-duration: 200ms;
@@ -367,7 +368,9 @@ i.fa-dollar-sign {
         margin-bottom: 1em;
         transition-property: background-color;
         transition-duration: 200ms;
-        
+        height: inherit;
+        background-color: #ffffff;
+
         &:hover {
             background-color: #fcf9f8; }
     }
