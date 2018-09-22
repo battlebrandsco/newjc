@@ -2,24 +2,23 @@
 
 namespace NewJC\Classes\CPTs;
 
-class Sermons extends \Weaverbird\Helpers\CPTs {
+class Sermon extends \Weaverbird\Helpers\CPT {
 
     public function __construct() {
 
-        $this->name        = 'sermon';
-        $this->slug_is_int = true;
+        $this->name     = 'sermon';
 
         $this->settings = [
             'public'      => true,
             'label'       => 'Sermons',
             'has_archive' => true,
-            'menu_icon'   => 'dashicons-editor-video',
+            'menu_icon'   => 'dashicons-microphone',
             'rewrite'     => [
                 'slug' => 'sermons',
             ],
             'supports'    => [ 'editor', 'title', 'thumbnail' ],
         ];
 
-        parent::init();
+        parent::__construct();
     }
 }

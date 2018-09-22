@@ -10,7 +10,6 @@ class Sermons extends \Weaverbird\Helpers\Metaboxes {
             [
                 'id'        => 'sermon-attributes', 
                 'title'     => __( 'Attributes' ),
-                'callback'  => [ $this, 'register' ],
                 'post_type' => 'sermon',
                 'fields'    => [
                     [
@@ -36,6 +35,6 @@ class Sermons extends \Weaverbird\Helpers\Metaboxes {
             ],
         ];
 
-        parent::init();
+        parent::__construct();
     }
 }
