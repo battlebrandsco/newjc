@@ -5,7 +5,7 @@
         <div class="hero-panel">
             <h1>Become a Member</h1>
             <p>Becoming a member is simple. Please take a moment to share some information with us and someone from our Deacons Ministry will reach out to you.</p>
-            <a class="btn">Become A Member</a>
+            <a class="btn" href="<?php echo home_url('forms/membership'); ?>">Become A Member</a>
         </div>
     </div>
 </section>
@@ -24,7 +24,7 @@
                 </ul>
             </li>
         </ul>
-        <p class="has-text-align-center"><a class="btn">Become A Member</a></p>
+        <p class="has-text-align-center"><a class="btn" href="<?php echo home_url('forms/membership'); ?>">Become A Member</a></p>
     </div>
 </section>
 
