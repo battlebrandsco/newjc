@@ -10,8 +10,8 @@
             <h3>Latest Sermon</h3>
             <?php if ( $recent_sermon = $newjc_objects['cpts']['sermon']->get(1) ): ?>
                 <h1><?php echo esc_attr( $recent_sermon[0]->post_title ); ?></h1>
+                <a class="btn btn-small" href="<?php echo get_permalink( $recent_sermon[0]->ID ); ?>">Sunday Replay <i class="fas fa-play"></i></a>
             <?php endif; ?>
-            <a class="btn btn-small" href="<?php echo home_url('sermons'); ?>">Sunday Replay <i class="fas fa-play"></i></a>
             <a class="btn btn-outlined" href="<?php echo home_url('visit'); ?>">Visit Us <i class="fas fa-chevron-right show-on-hover"></i></a>
         </div>
         <div class="overlay"></div>
