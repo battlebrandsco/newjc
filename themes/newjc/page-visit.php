@@ -48,7 +48,7 @@
                     ?>
                     <h3><?php echo esc_attr( $city ); ?>, <?php echo esc_attr( $state ); ?></h3>
                     <h4><?php echo $location->post_title; ?></h4>
-                    <p><?php echo esc_attr( $city ); ?>, <?php echo esc_attr( $state ); ?> <?php echo esc_attr( $zip ); ?></br /><?php echo esc_attr( $pastor ); ?></p>
+                    <p><?php echo esc_attr( $address ); ?> <?php echo esc_attr( $city ); ?>, <?php echo esc_attr( $state ); ?> <?php echo esc_attr( $zip ); ?></br /><?php echo esc_attr( $pastor ); ?></p>
                     <a class="btn btn-sm" href="<?php echo esc_attr( $website ); ?>">Visit <i class="fas fa-chevron-right show-on-hover"></i></a>
                 </div>
             <?php endforeach; ?>
