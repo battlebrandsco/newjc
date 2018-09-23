@@ -39,6 +39,7 @@
             <?php foreach( $newjc_objects['cpts']['location']->get( 'all' ) as $location ) : ?>
                 <div class="col has-border has-padding cosd">
                     <?php
+                        $address = get_post_meta( $location->ID, 'address', true );
                         $city    = get_post_meta( $location->ID, 'city', true );
                         $state   = get_post_meta( $location->ID, 'state', true ); 
                         $zip     = get_post_meta( $location->ID, 'zip', true );
@@ -51,63 +52,6 @@
                     <a class="btn btn-sm" href="<?php echo esc_attr( $website ); ?>">Visit <i class="fas fa-chevron-right show-on-hover"></i></a>
                 </div>
             <?php endforeach; ?>
-        </div>
-        
-        <div class="grid is-vertical-on-mobile">
-            <div id="high-point" class="col has-border has-padding cosd">
-                <h3>High Point, NC</h3>
-                <h4>Monument of Praise</h4>
-                <p>321 Oakview Rd. Highpoint, NC 27265</br />Dr. Kevin Williams, Senior Pastor</p>
-                <a class="btn btn-sm" href="http://monumentofpraise.org">Visit <i class="fas fa-chevron-right show-on-hover"></i></a>
-            </div>
-            <div class="col has-border has-padding cosd">
-                <h3>High Point, NC</h3>
-                <h4>Church of Redemption</h4>
-                <p>1212 Pearson Place. High Point, NC 27265<br />Pastor Lisa Taylor, Senior Pastor</p>
-                <a class="btn btn-sm" href="https://thechurchofredemption.org">Visit <i class="fas fa-chevron-right show-on-hover"></i></a>
-            </div>
-        </div>
-        <div class="grid is-vertical-on-mobile">
-            <div id="winston-salem" class="col has-border has-padding cosd">
-                <h3>Winston-Salem, NC</h3>
-                <h4>New Jerusalem Cathedral West</h4>
-                <p>3665 Patterson Ave. Winston-Salem, NC 27105<br />Dr. Erick Pryor, Senior Pastor</p>
-                <a class="btn btn-sm" href="https://www.facebook.com/newjcwest/">Visit <i class="fas fa-chevron-right show-on-hover"></i></a>
-            </div>
-            <div id="durham" class="col has-border has-padding cosd">
-                <h3>Durham, NC</h3>
-                <h4>Hope Church International</h4>
-                <p>1203 Holloway St. Durham, NC 27701<br />Pastor Nathaniel Fuller, Senior Pastor</p>
-                <a class="btn btn-sm" href="https://www.facebook.com/HopeChurchInternational/">Visit <i class="fas fa-chevron-right show-on-hover"></i></a>
-            </div>
-        </div>
-        <div class="grid is-vertical-on-mobile">
-            <div id="houston" class="col has-border has-padding cosd">
-                <h3>Houston, TX</h3>
-                <h4>Love &amp; Liberty Fellowship</h4>
-                <p>6717 Stuebner Airline Rd, Houston, TX 77091<br />Pastor Kim Burrell, Senior Pastor</p>
-                <a class="btn btn-sm" href="http://www.kimburrellministries.com/llfc">Visit <i class="fas fa-chevron-right show-on-hover"></i></a>
-            </div>
-            <div id="east-london" class="col has-border has-padding cosd">
-                <h3>East London, South Africa</h3>
-                <h4>Amazing Grace International Church</h4>
-                <p>Scenery Park East London Eastern Cape 5247 South Africa<br />Pastor Jay, Senior Pastor</p>
-                <a class="btn btn-sm" href="https://www.facebook.com/pg/Amazing-Grace-Ministries-International-466569626851944">Visit <i class="fas fa-chevron-right show-on-hover"></i></a>
-            </div>
-        </div>
-        <div class="grid is-vertical-on-mobile">
-            <div id="houston" class="col has-border has-padding cosd">
-                <h3>Houston, TX</h3>
-                <h4>Love &amp; Liberty Fellowship</h4>
-                <p>6717 Stuebner Airline Rd, Houston, TX 77091<br />Pastor Kim Burrell, Senior Pastor</p>
-                <a class="btn btn-sm" href="http://www.kimburrellministries.com/llfc">Visit <i class="fas fa-chevron-right show-on-hover"></i></a>
-            </div>
-            <div id="east-london" class="col has-border has-padding cosd">
-                <h3>East London, South Africa</h3>
-                <h4>Amazing Grace International Church</h4>
-                <p>Scenery Park East London Eastern Cape 5247 South Africa<br />Pastor Jay, Senior Pastor</p>
-                <a class="btn btn-sm" href="https://www.facebook.com/pg/Amazing-Grace-Ministries-International-466569626851944">Visit <i class="fas fa-chevron-right show-on-hover"></i></a>
-            </div>
         </div>
     </div>
 </section>
