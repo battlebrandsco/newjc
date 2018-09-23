@@ -13,7 +13,7 @@
 <section>
     <div class="container has-text-align-center has-width-50 is-full-on-mobile">
         <h2>With God, All Things Are Possible</h2>
-        <p>Throughout 41 years of serving the community of faith, we have seen God heal the sick, raise the dead, and literally do the impossible. We are confident that the best is not behind us, but just ahead, and your giving has the power to move us there.</p>
+        <p>Throughout 43 years of serving the community of faith, we have seen God heal the sick, raise the dead, and literally do the impossible. We are confident that the best is not behind us, but just ahead, and your giving has the power to move us there.</p>
     </div>
     <div class="grid has-width-75 has-text-align-center has-padding-top is-vertical-on-mobile">
         <div class="col">

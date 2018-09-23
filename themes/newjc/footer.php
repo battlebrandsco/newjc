@@ -37,11 +37,13 @@
                         <h4>Churches of Sound Doctrine</h4>
                         <p>New Jerusalem Cathedral is comprised of a network of churches known as the Churches of Sound Doctine.</p>
                         <ul class="menu">
+                            <li><a href="<?php echo home_url( 'visit#clinton' ); ?>">Clinton, NC</a></li>
                             <li><a href="<?php echo home_url( 'visit#winston-salem' ); ?>">Winston-Salem, NC</a></li>
                             <li><a href="<?php echo home_url( 'visit#durham' ); ?>">Durham, NC</a></li>
                             <li><a href="<?php echo home_url( 'visit#high-point' ); ?>">High Point, NC</a></li>
                             <li><a href="<?php echo home_url( 'visit#houston' ); ?>">Houston, TX</a></li>
                             <li><a href="<?php echo home_url( 'visit#east-london' ); ?>">East London, South Africa</a></li>
+                            <li><a href="<?php echo home_url( 'visit#nairboi' ); ?>">Nairobi, Kenya</a></li>
                         </ul>
                     </div>
                 </div>
