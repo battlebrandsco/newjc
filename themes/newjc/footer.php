@@ -30,7 +30,7 @@
                             (336) 370-8583<br />
                             <a href="mailto:info@newjc.org">info@newjc.org</a><br /></p>
                         <ul class="menu">
-                            <li><a href="<?php echo home_url( 'contact' ); ?>">Pastor &amp; Staff</a></li>
+                            <li><a href="<?php echo home_url( 'contact#pastor-staff' ); ?>">Pastor &amp; Staff</a></li>
                         </ul>
                     </div>
                     <div class="col">
@@ -51,7 +51,7 @@
             <div class="grid is-vertical-on-mobile">
                 <div class="col is-yellow">&copy; 2018 New Jerusalem Cathedral. All Rights Reserved.</div>
                 <div class="col has-text-align-center has-text-align-left-on-mobile has-margin-bottom-on-mobile"><a href="https://www.bible.com/bible/116/rev.21.nlt" target="_blank">Revelation 21:2</a></div>
-                <div class="col has-text-align-right has-text-align-left-on-mobile is-yellow">Branded by Battle Branding</div>
+                <div class="col has-text-align-right has-text-align-left-on-mobile is-yellow">Branded by <a href="mailto: info@battlebranding.com">Battle Branding</a></div>
             </div>
         </footer>
         <?php wp_footer(); ?>

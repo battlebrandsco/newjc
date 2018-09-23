@@ -37,7 +37,7 @@
         <a class="btn" href="<?php echo home_url('forms/contact'); ?>">Send Message</a>
     </div>
 </section>
-<section>
+<section id="pastors-staff">
     <div class="container">
         <h2 class="has-text-align-center">Pastors &amp; Staff</h2>
     </div>
