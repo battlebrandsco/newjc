@@ -1,4 +1,7 @@
-<?php get_header(); ?>
+<?php 
+    /** Template Name: Contact Us */
+    get_header(); 
+?>
 
 <section>
     <div class="hero">
