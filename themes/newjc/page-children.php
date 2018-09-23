@@ -46,7 +46,7 @@
             <div class="col">
                 <h2>Secure Checkins for Spark World</h2>
                 <p>Whether it’s your child’s first time joining Kingdom Sparks or the 100th, we want you to know that we appreciate you and are praying that your child’s time with us is positively life changing for the Kingdom of God! Once you arrive, feel free to register your child in person beginning as early as 10:45am on Sunday mornings or skip the line and register here.</p>
-                <!-- <a class="btn">Spark Checkin <i class="fas fa-lock"></i></a> -->
+                <a class="btn" href="<?php echo home_url('forms/child-waiver'); ?>">Spark Checkin <i class="fas fa-lock"></i></a>
             </div>
         </div>
     </div>
