@@ -12,11 +12,11 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/themarcusbattle/chameleon.git",
-                "reference": "d470a643c6f1ffc52355e22b25f83e83f0969703"
+                "reference": "602c3da9106c754b8f8dbbcad0140835e1d82fb3"
             },
             "type": "library",
             "description": "Custom CSS Framework by Marcus Battle",
-            "time": "2018-09-23T04:06:19+00:00"
+            "time": "2018-09-23T04:08:51+00:00"
         },
         {
             "name": "themarcusbattle/weaverbird",
