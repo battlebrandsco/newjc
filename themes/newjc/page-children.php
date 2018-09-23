@@ -21,18 +21,18 @@
 </section>
 <section class="has-background-color-red">
     <div class="container has-width-75 is-centered">
-        <div class="grid">
-            <div class="col is-vertical-on-mobile">
+        <div class="grid is-vertical-on-mobile">
+            <div class="col">
                 <h3>18 months To 4 years</h3>
                 <h4 class="has-background-color-yellow has-margin-bottom">Location: Pod 2</h4>
                 <p>Sparks Nursery (Pod 2): 18 months to 4 years - We are here to serve your toddlers with nurturing love and compassion.</p>
             </div>
-            <div class="col is-vertical-on-mobile">
+            <div class="col">
                 <h3>Pre-K to 2nd grade</h3>
                 <h4 class="has-background-color-yellow has-margin-bottom">Location: Pod 1</h4>
                 <p>Sparks Primary (Pod 1): Pre-K to 2nd grade - Children will enjoy active engaging worship through song, dance and more. The worship experience also entails hands-on activities and an engaging message taught by our amazing staff.</p>
             </div>
-            <div class="col is-vertical-on-mobile">
+            <div class="col">
                 <h3>3rd grade to 5th grade</h3>
                 <h4 class="has-background-color-yellow has-margin-bottom">Location: Pod 3</h4>
                 <p>Sparks (POD 3): 3rd grade to 5th grade - Older elementary aged children are met by our staff with impactful large group discussions. They are also given the opportunity to lead in worship through hands on application.</p>

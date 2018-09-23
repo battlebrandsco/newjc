@@ -184,7 +184,10 @@ footer {
 
 .has-background-color-red {
     background-color: #FF0000;
-    color: #ffffff; }
+    color: #ffffff;
+
+    h3 { color: #ffffff; }
+}
 
 .has-background-color-purple {
     background-color: #292C37;

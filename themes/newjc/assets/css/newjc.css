@@ -153,6 +153,8 @@ footer .col:hover h4 {
 .has-background-color-red {
   background-color: #FF0000;
   color: #ffffff; }
+  .has-background-color-red h3 {
+    color: #ffffff; }
 
 .has-background-color-purple {
   background-color: #292C37;
