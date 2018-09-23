@@ -230,8 +230,7 @@ i.fa-dollar-sign {
 .post-type-archive-sermon .video-play {
   display: block;
   height: 300px;
-  position: relative;
-  background-color: #333333; }
+  position: relative; }
   .watch .video-play:after,
   .post-type-archive-sermon .video-play:after {
     content: ' ';
