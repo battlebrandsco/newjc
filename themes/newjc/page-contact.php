@@ -30,6 +30,9 @@
             </div>
         </div>
     </div>
+    <div class="container has-text-align-center">
+        <a class="btn" href="<?php echo home_url('forms/contact'); ?>">Send Message</a>
+    </div>
 </section>
 <section>
     <div class="container">
