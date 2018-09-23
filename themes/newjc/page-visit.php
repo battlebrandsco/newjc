@@ -36,16 +36,17 @@
         <h3 class="has-text-align-center">Visit a Church of Sound Doctrine</h3>
         <p class="has-text-align-center has-width-50 is-centered is-full-on-mobile" style="margin-bottom: 3em;">New Jerusalem Cathedral is comprised of a network of churches known as the Churches of Sound Doctine. If you're unable to visit us in person, feel free to visit one of our network churches for a life changing word.</p>
         <div class="grid grid-gallery is-vertical-on-mobile">
-            <?php foreach( $newjc_objects['cpts']['location']->get( 'all' ) as $location ) : ?>
-                <div class="col has-border has-padding cosd">
-                    <?php
-                        $address = get_post_meta( $location->ID, 'address', true );
-                        $city    = get_post_meta( $location->ID, 'city', true );
-                        $state   = get_post_meta( $location->ID, 'state', true ); 
-                        $zip     = get_post_meta( $location->ID, 'zip', true );
-                        $pastor  = get_post_meta( $location->ID, 'pastor', true );
-                        $website = get_post_meta( $location->ID, 'website', true );
-                    ?>
+            <?php foreach( $newjc_objects['cpts']['location']->get( 'all' ) as $location ) :
+
+                    $address = get_post_meta( $location->ID, 'address', true );
+                    $city    = get_post_meta( $location->ID, 'city', true );
+                    $state   = get_post_meta( $location->ID, 'state', true ); 
+                    $zip     = get_post_meta( $location->ID, 'zip', true );
+                    $pastor  = get_post_meta( $location->ID, 'pastor', true );
+                    $website = get_post_meta( $location->ID, 'website', true );
+                    $id = str_replace( ' ', '-', strtolower( $city ) );
+                ?>
+                <div id="<?php echo $id; ?>" class="col has-border has-padding cosd">
                     <h3><?php echo esc_attr( $city ); ?>, <?php echo esc_attr( $state ); ?></h3>
                     <h4><?php echo $location->post_title; ?></h4>
                     <p><?php echo esc_attr( $address ); ?> <?php echo esc_attr( $city ); ?>, <?php echo esc_attr( $state ); ?> <?php echo esc_attr( $zip ); ?></br /><?php echo esc_attr( $pastor ); ?></p>
