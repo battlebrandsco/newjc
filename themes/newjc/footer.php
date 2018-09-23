@@ -28,7 +28,7 @@
                         <p>1822 Sharpe Road<br />
                             Greensboro, NC 27406<br />
                             (336) 370-8583<br />
-                            info@newjc.org</p>
+                            <a href="mailto:info@newjc.org">info@newjc.org</a><br /></p>
                         <ul class="menu">
                             <li><a href="<?php echo home_url( 'contact' ); ?>">Pastor &amp; Staff</a></li>
                         </ul>

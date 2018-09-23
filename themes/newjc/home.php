@@ -31,7 +31,7 @@
             </div>
         </div>
     </div>
-    <img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/dr-kevin-williams.png' ?>" height="400" class="sticker" style="bottom: 0; left: 0;" />
+    <img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/dr-kevin-williams.png' ?>" height="400" class="is-absolute not-absolute-on-mobile" style="bottom: 0; left: 0;" />
 </section>
 
 <section style="display: none; background-image: url('<?php echo get_stylesheet_directory_uri() . '/assets/images/boat-in-storm-on-water.jpg' ?>');">
