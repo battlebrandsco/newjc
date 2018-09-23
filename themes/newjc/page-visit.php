@@ -9,7 +9,7 @@
         <div class="hero-panel has-text-align-left has-padding-lg">
             <h1>Join Us In Person</h1>
             <h2 class="is-white">Sundays 7AM / 11AM / 6PM</h2>
-            <p>Visiting anywhere by yourself for the first time can be pretty intimidating. We want to make sure your visit to any one of our services exceeds your expectations and that you feel the love of Christ in a tangible way. We are His arms and feet, and you are welcome to experience new life!</p>
+            <p>We want to make sure your visit to any one of our services exceeds your expectations and that you feel the love of Christ in a tangible way. We are His arms and feet, and you are welcome to experience new life!</p>
             <a class="btn" href="https://www.google.com/maps/dir//1822+Sharpe+Rd,+Greensboro,+NC+27406/@36.0428333,-79.741993,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8853227f63b38669:0x84f651dc0d872353!2m2!1d-79.739799!2d36.042829" target="_blank">Get Directions <i class="fas fa-chevron-right"></i></a>
         </div>
         <div class="overlay has-background-color-yellow"></div>
