@@ -229,8 +229,9 @@ i.fa-dollar-sign {
 .watch .video-play,
 .post-type-archive-sermon .video-play {
   display: block;
-  height: 100%;
-  position: relative; }
+  height: 300px;
+  position: relative;
+  background-color: #333333; }
   .watch .video-play:after,
   .post-type-archive-sermon .video-play:after {
     content: ' ';
