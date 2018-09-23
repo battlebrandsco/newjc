@@ -202,7 +202,7 @@ i.fa-dollar-sign {
 
 .home #welcome .hero {
   color: #ffffff;
-  height: 100%; }
+  min-height: 100%; }
 
 .home #welcome .overlay {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, black 100%); }
@@ -307,8 +307,7 @@ i.fa-dollar-sign {
   .get-involved #find .hero {
     background-color: #DDA126;
     background-image: url(../../assets/images/group-fist-bumping.jpg);
-    height: 100%;
-    padding: 4em 0; }
+    min-height: 100%; }
     .get-involved #find .hero .overlay {
       opacity: .4; }
 
@@ -316,7 +315,7 @@ i.fa-dollar-sign {
   background-color: #ffffff;
   background-image: url(../../assets/images/gymtorium-construction-progress.jpg);
   color: #ffffff;
-  height: 100%; }
+  min-height: 100%; }
   .give #give .hero .overlay {
     opacity: .3; }
 
@@ -347,7 +346,7 @@ i.fa-dollar-sign {
 .outreach #outreach .hero {
   background-image: url(../../assets/images/community-loading-truck-with-water.jpg);
   color: #ffffff;
-  height: 100%; }
+  min-height: 100%; }
 
 .contact .col {
   transition-property: background-color;
