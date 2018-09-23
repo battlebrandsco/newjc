@@ -30,7 +30,7 @@
                             (336) 370-8583<br />
                             <a href="mailto:info@newjc.org">info@newjc.org</a><br /></p>
                         <ul class="menu">
-                            <li><a href="<?php echo home_url( 'contact#pastor-staff' ); ?>">Pastor &amp; Staff</a></li>
+                            <li><a href="<?php echo home_url( 'contact#pastors-staff' ); ?>">Pastor &amp; Staff</a></li>
                         </ul>
                     </div>
                     <div class="col">
