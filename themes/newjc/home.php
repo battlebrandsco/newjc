@@ -1,10 +1,16 @@
-<?php get_header(); ?>
+<?php
+    get_header(); 
+
+    global $newjc_objects;
+?>
 
 <section id="welcome" class="has-no-padding">
     <div class="hero hero-lg">
         <div class="hero-panel">
             <h3>Latest Sermon</h3>
-            <h1>Everything Is Within Reach</h1>
+            <?php if ( $recent_sermon = $newjc_objects['cpts']['sermon']->get(1) ): ?>
+                <h1><?php echo esc_attr( $recent_sermon[0]->post_title ); ?></h1>
+            <?php endif; ?>
             <a class="btn btn-small" href="<?php echo home_url('sermons'); ?>">Sunday Replay <i class="fas fa-play"></i></a>
             <a class="btn btn-outlined" href="<?php echo home_url('visit'); ?>">Visit Us <i class="fas fa-chevron-right show-on-hover"></i></a>
         </div>
