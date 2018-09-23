@@ -32,7 +32,7 @@
         </div>
         <h2>Interested in teaching a group?</h2>
         <p>Awesome! We are always looking for new Kingdom Life Group leaders. You do not have to be a theologian however, we are looking for individuals that are lovers of Christ, followers of the Word of God and who have passion and experience to teach a group using Biblical solutions.</p>
-        <a class="btn">Become A Teacher</a>
+        <a class="btn" href="<?php echo home_url('forms/volunteer'); ?>">Become A Teacher</a>
     </div>
 </section>
 
