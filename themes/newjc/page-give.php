@@ -22,9 +22,9 @@
             <p>Giving available on the <a href="https://cash.me/$newjc">CashApp</a></p>
         </div>
         <div class="col">
-            <i class="far fa-credit-card is-xl is-yellow"></i>
+            <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QNHCAZ37ZMVBN"><i class="far fa-credit-card is-xl is-yellow"></i></a>
             <h3>Credit/Debit</h3>
-            <p>Secure credit or debit via <a href="#">PayPal</a></p>
+            <p>Secure credit or debit via <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QNHCAZ37ZMVBN">PayPal</a></p>
         </div>
         <div class="col">
             <a href="<?php echo home_url('visit'); ?>"><i class="fas fa-hand-holding-usd is-xl is-yellow"></i></a>
