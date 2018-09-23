@@ -22,17 +22,17 @@
 <section class="has-background-color-red">
     <div class="container has-width-75 is-centered">
         <div class="grid">
-            <div class="col">
+            <div class="col is-vertical-on-mobile">
                 <h3>18 months To 4 years</h3>
                 <h4 class="has-background-color-yellow has-margin-bottom">Location: Pod 2</h4>
                 <p>Sparks Nursery (Pod 2): 18 months to 4 years - We are here to serve your toddlers with nurturing love and compassion.</p>
             </div>
-            <div class="col">
+            <div class="col is-vertical-on-mobile">
                 <h3>Pre-K to 2nd grade</h3>
                 <h4 class="has-background-color-yellow has-margin-bottom">Location: Pod 1</h4>
                 <p>Sparks Primary (Pod 1): Pre-K to 2nd grade - Children will enjoy active engaging worship through song, dance and more. The worship experience also entails hands-on activities and an engaging message taught by our amazing staff.</p>
             </div>
-            <div class="col">
+            <div class="col is-vertical-on-mobile">
                 <h3>3rd grade to 5th grade</h3>
                 <h4 class="has-background-color-yellow has-margin-bottom">Location: Pod 3</h4>
                 <p>Sparks (POD 3): 3rd grade to 5th grade - Older elementary aged children are met by our staff with impactful large group discussions. They are also given the opportunity to lead in worship through hands on application.</p>
@@ -46,7 +46,7 @@
             <div class="col">
                 <h2>Secure Checkins for Spark World</h2>
                 <p>Whether it’s your child’s first time joining Kingdom Sparks or the 100th, we want you to know that we appreciate you and are praying that your child’s time with us is positively life changing for the Kingdom of God! Once you arrive, feel free to register your child in person beginning as early as 10:45am on Sunday mornings or skip the line and register here.</p>
-                <a class="btn">Spark Checkin <i class="fas fa-lock"></i></a>
+                <!-- <a class="btn">Spark Checkin <i class="fas fa-lock"></i></a> -->
             </div>
         </div>
     </div>
