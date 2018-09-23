@@ -194,6 +194,9 @@ i.fa-dollar-sign {
   .menu-overlay .overlay {
     background-color: #292C37; }
 
+.home header a {
+  color: #ffffff; }
+
 .home #welcome h1 {
   font-size: 2em; }
 
