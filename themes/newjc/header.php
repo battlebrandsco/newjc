@@ -10,7 +10,7 @@
             <a id="close-menu" class="is-absolute is-close-button"><i class="fas fa-times"></i></a>
             <div>
                 <a href="<?php echo home_url(); ?>" class="logo">
-                    <img alt="New Jerusalem Cathedral Logo" src="<?php echo get_stylesheet_directory_uri() . '/assets/images/NJC Logo.svg' ?>" height="60px" />
+                    <img alt="New Jerusalem Cathedral Logo" src="<?php echo get_stylesheet_directory_uri() . '/assets/images/NJC Logo.png' ?>" height="60px" />
                 </a>
                 <nav>
                     <?php
@@ -45,7 +45,7 @@
                 <div class="grid vertical-align">
                     <div class="col">
                         <a href="<?php echo home_url(); ?>" class="logo">
-                            <img alt="New Jerusalem Cathedral Logo" src="<?php echo get_stylesheet_directory_uri() . '/assets/images/NJC Logo.svg' ?>" height="60px" />
+                            <img alt="New Jerusalem Cathedral Logo" src="<?php echo get_stylesheet_directory_uri() . '/assets/images/NJC Logo.png' ?>" height="60px" />
                         </a>
                     </div>
                     <div class="col has-width-75 has-text-align-center hide-on-mobile">
