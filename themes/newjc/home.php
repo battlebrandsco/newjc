@@ -9,7 +9,7 @@
         <div class="hero-panel">
             <h1>Christ-Mass Giveaway | Friday, Dec. 21, 2018</h1>
             <p>Help us to serve over 400 families by donating today!</p>
-            <a class="btn btn-outlined" href="<?php echo home_url('give/christmass'); ?>">Donate <i class="fas fa-chevron-right show-on-hover"></i></a>
+            <a class="btn btn-outlined" href="<?php echo home_url('give/christ-mass-giveaway'); ?>">Donate <i class="fas fa-chevron-right show-on-hover"></i></a>
             <!--
             <h3>Latest Sermon</h3>
             <?php if ( $recent_sermon = $newjc_objects['cpts']['sermon']->get(1) ): ?>
