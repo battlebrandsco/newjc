@@ -7,16 +7,21 @@
 <section id="welcome" class="has-no-padding">
     <div class="hero hero-lg">
         <div class="hero-panel">
+            <h1>Christ-Mass Giveaway | Friday, Dec. 21, 2018</h1>
+            <p>Help us to serve over 400 families by donating today!</p>
+            <a class="btn btn-outlined" href="<?php echo home_url('give/christmass'); ?>">Donate <i class="fas fa-chevron-right show-on-hover"></i></a>
+            <!--
             <h3>Latest Sermon</h3>
             <?php if ( $recent_sermon = $newjc_objects['cpts']['sermon']->get(1) ): ?>
                 <h1><?php echo esc_attr( $recent_sermon[0]->post_title ); ?></h1>
                 <a class="btn btn-small" href="<?php echo get_permalink( $recent_sermon[0]->ID ); ?>">Sunday Replay <i class="fas fa-play"></i></a>
             <?php endif; ?>
             <a class="btn btn-outlined" href="<?php echo home_url('visit'); ?>">Visit Us <i class="fas fa-chevron-right show-on-hover"></i></a>
+            -->
         </div>
         <div class="overlay"></div>
         <video autoplay muted loop playsinline id="myVideo">
-            <source src="<?php echo get_stylesheet_directory_uri() . '/assets/video/NJC PROMO - low.mp4' ?>" type="video/mp4">
+            <source src="<?php echo get_stylesheet_directory_uri() . '/assets/video/gifts-under-a-christmas-tree.mp4' ?>" type="video/mp4">
         </video>
     </div>
 </section>
