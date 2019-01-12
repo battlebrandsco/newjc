@@ -7,7 +7,7 @@
 <section id="welcome" class="has-no-padding">
     <div class="hero hero-lg">
         <div class="hero-panel">
-            <h3>Latest Sermon</h3>
+            <h3>Featured Sermon</h3>
             <?php if ( $recent_sermon = $newjc_objects['cpts']['sermon']->get(1) ): ?>
                 <h1><?php echo esc_attr( $recent_sermon[0]->post_title ); ?></h1>
                 <a class="btn btn-small" href="<?php echo get_permalink( $recent_sermon[0]->ID ); ?>">Sunday Replay <i class="fas fa-play"></i></a>
