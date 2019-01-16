@@ -40,11 +40,6 @@
             </div>
             <div class="overlay"></div>
         </div>
-        <section class="has-background-color-red has-no-padding">
-            <div class="container has-text-align-center has-padding">
-                <span class="subtitle">7am & 9am services are cancelled. Combined service for Monument of Praise and New Jerusalem Cathedral begins at 12PM.</span>
-            </div>
-        </section>
         <header class="is-absolute">
             <div class="container">
                 <div class="grid vertical-align">
