@@ -17,9 +17,9 @@
     </div>
     <div class="grid has-width-75 has-text-align-center has-padding-top is-vertical-on-mobile">
         <div class="col">
-            <a href="https://cash.me/$newjc"><i class="fas fa-dollar-sign is-xl is-white has-background-color-yellow"></i></a>
-            <h3>Cash App</h3>
-            <p>Giving available on the <a href="https://cash.me/$newjc">CashApp</a></p>
+            <a href="https://cash.me/$newjc"><i class="fas fa-money-bill-wave is-xl is-white has-background-color-yellow"></i></a>
+            <h3>Givelify</h3>
+            <p>Giving is available on the <a href="https://givelify.com">Givelify</a> app by searching for "New Jerusalem Cathedral"</p>
         </div>
         <div class="col">
             <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QNHCAZ37ZMVBN"><i class="far fa-credit-card is-xl is-yellow"></i></a>
